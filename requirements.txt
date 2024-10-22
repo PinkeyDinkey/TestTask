@@ -1,0 +1,13 @@
+alembic==1.13.3
+aiohttp==3.10.5
+asyncpg==0.29.0
+databases==0.9.0
+fastapi==0.112.1
+fastapi_utils==0.7.0
+inject==5.2.1
+orjson==3.10.7
+python-dotenv==1.0.1
+sqlalchemy==2.0.32
+typing_inspect==0.9.0
+uvicorn==0.30.6
+validators==0.34.0

@@ -1,0 +1,28 @@
+[tool.black]
+line-length = 109
+skip-string-normalization = 1
+
+[tool.isort]
+profile = "black"
+no_lines_before = ["LOCALFOLDER"]
+skip = [".gitignore", ".dockerignore"]
+line_length = 109
+
+[tool.pylint.format]
+max-line-length = 109
+
+[tool.pylint."MESSAGES CONTROL"]
+disable = [
+    "import-error",
+    "wrong-import-order",
+    "unused-argument",
+    "duplicate-code",
+    "too-many-locals",
+    "too-many-instance-attributes",
+    "too-few-public-methods",
+    "too-many-arguments",
+    "too-many-ancestors",
+    "too-many-public-methods",
+    "too-many-branches",
+    "too-many-statements"
+]
